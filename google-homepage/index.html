@@ -1,58 +1,62 @@
+<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
 <head>
-    <title ="google-homepage"></title>
-    <style></style>
+    <title>"google-homepage"></title>
+    <meta charset="UTF-8">
+    <meta name="author" description="Vieira73">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <nav id="navbar">
-        <ul>
-            <li class="button-nav">
+    <nav>
+        <ul id="navbar">
+            <li id="gmail">
                 <a href="#">Gmail</a>
             </li>
-            <li class="button-nav">
+            <li id="images">
                 <a href="#">Images</a>
             </li>
-            <li class="button-nav">
-                <a href="">Apps</a>
+            <li id="apps">
+                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRl-qMgveDYx-D9CwdHekFm9zaVjMOBt_3c3Q&usqp=CAU" alt="apps icon" width="31px"></a>
             </li>
             <br>
-            <button type="button">Sign in</button>
+            <button id="sign-in" type="button"><strong>Sign In</strong></button>
         </ul> 
-
     </nav>
-    <section id="main-content">
-        <img id="google-img" src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png alt="googlelogo">
-        <form id="form-google" action="">
+    <main id="main-content">
+        <img id="google-image" src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png alt="googlelogo">
             <input type="text" id="search-bar" name="search-bar"> 
             <br></br>
             <div id="button-two">
-                <input type="button" class="buttons" value="Google Search" name="google-search">
-                <input type="button" class="buttons" value="I'm Feeling Lucky" name="google-search">
+                <input id="google-search" type="button" value="Google Search" name="google-search">
+                <input id="im-feeling-lucky" type="button" value="I'm Feeling Lucky" name="google-search">
             </div>   
-        </form>    
-    </section>
-    <hr>
+           
+    </main>
     <footer>
-        <ul id="left-footer">
-            <li class="le-footer">
+        <ul id="footer">
+            <div id="left-footer">
+            <li id="advertising">
                 <a href="#">Advertising</a>
             </li>
-            <li class="le-footer">
+            <li id="business">
                 <a href="#">Business</a>
             </li>
-            <li class="le-footer">
+            <li id="how-search-works">
                 <a href="#">How Search Works</a>
+            </div>
+            <div id="right-footer">
             </li>
-        </ul>
-        <ul id="right-footer">
-            <li class="ri-footer">
+            <li id="privacy">
                 <a href="#">Privacy</a>
             </li>
-            <li class="ri-footer">
+            <li id="terms">
                 <a href="#">Terms</a>
             </li>
-            <li class="ri-footer">
+            <li id="settings">
                 <a href="#">Settings</a>
             </li>
+            </div>
         </ul>
     </footer>
 </body>

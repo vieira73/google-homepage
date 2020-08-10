@@ -1,0 +1,1 @@
+Just a google homepage (built in a different way) to train my HTML and CSS.
